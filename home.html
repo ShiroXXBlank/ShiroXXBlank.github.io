@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShiroXXBlank | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #0f0f11;
+      --card-bg: #1c1c20;
+      --text-color: #eaeaea;
+      --accent: #4ecdc4;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      padding: 2rem;
+      line-height: 1.6;
+    }
+
+    header {
+      margin-bottom: 3rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: var(--accent);
+    }
+
+    h2 {
+      color: var(--accent);
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      max-width: 600px;
+      margin-bottom: 1rem;
+    }
+
+    .project {
+      background-color: var(--card-bg);
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      transition: transform 0.2s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-4px);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .links {
+      margin-top: 0.5rem;
+    }
+
+    .links a {
+      margin-right: 1rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ShiroXXBlank</h1>
+    <p>Roblox scripter & systems developer passionate about clean code, UI, and immersive gameplay systems.</p>
+    <div class="links">
+      <a href="https://github.com/ShiroXXBlank" target="_blank">GitHub</a>
+      <a href="https://www.roblox.com/users/1155794749/profile" target="_blank">Roblox</a>
+      <span>Discord: <strong>@shiroblank_.</strong></span>
+    </div>
+  </header>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Dialogue System</h3>
+      <p>A dynamic, modular dialogue system with branching logic, UI customization, and localization support. Built for non-programmers to integrate easily. All of the options in the dialogue also have callbacks so you can easily integrate it with other systems.</p>
+      <a href="https://youtu.be/_p1zYVlTJ3A" target="_blank">▶ Watch Demo</a>
+    </div>
+
+    <div class="project">
+      <h3>Card Game Prototype</h3>
+      <p>I was prototyping a card game. I drew all the pixel art by hand then added the Cards to the game. The code uses a object-oriented approach so it is easily scalable.</p>
+      <a href="https://youtu.be/BZZtsWfF7gQ" target="_blank">▶ Watch Demo</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Want to collaborate or have questions? Reach out via Discord: <strong>@ShiroXXBlank</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ShiroXXBlank. Built with HTML & CSS.</p>
+  </footer>
+</body>
+</html>
